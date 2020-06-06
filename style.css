@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+p {
+    border-bottom: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    width: 200px;
+    padding: 20px;
+    margin: 0px;
+}
+
+.last {
+    border-bottom: 0px;
+}
+
+p:hover {
+    background: orange;
+}
